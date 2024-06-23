@@ -60,6 +60,7 @@ int main()
         break;
         insert_tail(head,tail,val);
     }
+    print_normal(head);
     print_reverse(tail);
     return 0;
 }
